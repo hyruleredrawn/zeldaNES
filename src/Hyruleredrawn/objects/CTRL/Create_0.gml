@@ -5,6 +5,9 @@
 // Window Setup
 scr_windowSetup();
 
+window_lastx = window_get_width();
+window_lasty = window_get_height();
+
 // Audio Setup
 audio_master_gain(0.2)
 audio_play_sound(bgm_title,0,true)
@@ -32,7 +35,6 @@ wyPadding = 15;
 bxSpacing = 30; // Button spacing
 bzSpacing = -100; // Button depth
 
-
 enum buttonOrder {	// Manage button order
 	fs,
 	shader,
@@ -44,7 +46,7 @@ enum buttonOrder {	// Manage button order
 state = "title"
 
 draw_set_font(fnt_alttp);
-title = instance_create_depth(global.screenWidth/2,global.screenHeight/2,-100,obj_title) // Title card
+title = instance_create_depth(global.screenWidth/2,global.screenHeight/2, bzSpacing,obj_title) // Title card
 title.ctrl = self
 
 // Instantiate navigation buttons
@@ -52,6 +54,10 @@ if (global.os_mode != "HTML5") {
 	objfs = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.fs - wxPadding,
 									wyPadding, bzSpacing, obj_fullscreen); // Fullscreen
 	objfs.ctrl = self
+}
+else {
+	// Since we're removing this button, shift the other buttons over with it
+	wxPadding -= bxSpacing;
 }
 
 objshader = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.shader - wxPadding,
@@ -137,15 +143,16 @@ function fnc_start()
 				artistData.artistName = artistArrayOverworld[getN];
 				artistData.link = artistArrayURLOverworld[getN];
 				
-				if(i = 7 && j== 3)
+				// Dungeons
+				if(i = 7 && j== 3)	
 					artistData.entry = 1;
-				if(i = 14&& j== 3)
+				if(i = 12 && j== 3)
 					artistData.entry = 2;
 				if(i = 4 && j== 7)
 					artistData.entry = 3;
-				if(i = 6 && j== 5)
+				if(i = 5 && j== 4)
 					artistData.entry = 4;
-				if(i = 13 && j== 0)
+				if(i = 11 && j== 0)
 					artistData.entry = 5;
 				if(i = 2 && j== 2)
 					artistData.entry = 6;
@@ -266,12 +273,14 @@ function posCheck()
 	show_debug_message(artistReadData.artistName)
 	
 
-	if (posX == 3 && posY == 4)
+	if (posX == 3 && posY == 4 ||
+		posX == 9 && posY == 3)	// Fairy Fountain 
 	{
 		audio_stop_all();
 		audio_play_sound(bgm_fairy,0,true);
 	}
-	if (previousPosX == 3 && previousPosY == 4) 
+	if (previousPosX == 3 && previousPosY == 4 ||
+		previousPosX == 9 && previousPosY == 3 ) // Exit Fairy Fountain
 	{
 		audio_stop_all();
 		audio_play_sound(bgm,0,true);
