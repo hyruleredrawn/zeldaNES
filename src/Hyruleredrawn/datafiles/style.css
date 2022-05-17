@@ -1,0 +1,49 @@
+body {
+	background: #000000;
+}
+
+footer {
+	  padding: 3px;
+  background-color: #212121;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+	
+}
+
+#credits {
+
+}
+
+#downloads {
+	bottom:0;
+}
+
+a:link {
+  color: #ebebeb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4d4d4d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00c21d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #07ed2a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#dl {
+	width: 16px;
+	height: 16px;
+}
