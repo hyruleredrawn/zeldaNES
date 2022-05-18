@@ -10,7 +10,7 @@ window_lasty = window_get_height();
 
 // Audio Setup
 audio_master_gain(0.2)
-audio_play_sound(bgm_title,0,true)
+audio_play_sound(bgm_title,1,true)
 
 //VARIABLES
 hStep = 256;
@@ -72,7 +72,7 @@ audio.ctrl = self
 function fnc_start()
 	{
 	audio_stop_all();				// Mute title audio
-	audio_play_sound(bgm,0,true)	// Run game bgm
+	audio_play_sound(bgm,1,true)	// Run game bgm
 	fnc_spawnArrows();				// Create nav arrows
 	
 	namebox = instance_create_depth(260,235,3,obj_name)  // Name plate
@@ -277,13 +277,13 @@ function posCheck()
 		posX == 9 && posY == 3)	// Fairy Fountain 
 	{
 		audio_stop_all();
-		audio_play_sound(bgm_fairy,0,true);
+		audio_play_sound(bgm_fairy,1,true);
 	}
 	if (previousPosX == 3 && previousPosY == 4 ||
 		previousPosX == 9 && previousPosY == 3 ) // Exit Fairy Fountain
 	{
 		audio_stop_all();
-		audio_play_sound(bgm,0,true);
+		audio_play_sound(bgm,1,true);
 	}
 	
 	if(instance_exists(obj_entryButton))
@@ -333,7 +333,7 @@ function entry()
 {
 	fnc_despawnArrows()
 	audio_stop_all()
-	audio_play_sound(bgm_dungeon,0,true);
+	audio_play_sound(bgm_dungeon,1,true);
 	audio_play_sound(sfx_stairs,0,false);
 	nameArtist = artistArrayDungeon[(dungeon-1)];
 	link = artistArrayURLDungeon[(dungeon-1)];
@@ -354,7 +354,7 @@ function returnToMap()
 	fnc_spawnArrows()
 	audio_stop_all()
 	audio_play_sound(sfx_stairs,0,false);
-	audio_play_sound(bgm,0,true)
+	audio_play_sound(bgm,1,true)
 	show_debug_message("Exiting Dungeon " + string(dungeon) )
 	posCheck();
 }
