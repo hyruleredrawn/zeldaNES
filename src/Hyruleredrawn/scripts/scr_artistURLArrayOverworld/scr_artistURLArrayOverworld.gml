@@ -17,7 +17,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/MageUntalented",	
 		"https://twitter.com/ddoobysnax/status/1371195606828412929",	
 		"https://twitter.com/Maytch",	
-		"",	//untraceable
+		"https://google.com",	//untraceable
 		"https://crowno.carrd.co/",	//r2
 		"https://linktr.ee/FloppyVelarde",	
 		"https://linktr.ee/javve",	
@@ -33,7 +33,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/PikaBoooouh",	
 		"https://linktr.ee/thedragonllama",	
 		"https://linktr.ee/lorenradis",	
-		"",	//Has no socials
+		"https://google.com",	//Has no socials
 		"https://twitter.com/block_snake",	//r3
 		"https://linktr.ee/reineke",	
 		"https://twitter.com/ZabluDoki",	//request send // Found on twitter
@@ -46,9 +46,9 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/Dylz49",	
 		"https://twitter.com/tripleafrog",	
 		"https://linktr.ee/croey",	
-		"",	//Has no socials
+		"https://google.com",	//Has no socials
 		"https://twitter.com/OvergrownRobot",	
-		"",	//request send
+		"https://google.com",	//request send
 		"https://linktr.ee/MerSaloon",	
 		"https://twitter.com/squp_haver",	//r4
 		"https://linktr.ee/reineke",	
@@ -88,7 +88,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/j_raido",	
 		"https://www.instagram.com/kumporigin/",	
 		"https://linktr.ee/MerSaloon",	
-		"",	//request sent
+		"https://google.com",	//request sent
 		"https://crowno.carrd.co/",	
 		"https://linktr.ee/1Sinvilla",	
 		"https://twitter.com/Alisuca3",	
@@ -102,9 +102,9 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/MursellJ_art",	
 		"https://twitter.com/MursellJ_art",	
 		"https://twitter.com/illydinosaur",	
-		" http://airyu.cat/",	
-		" http://airyu.cat/",	
-		" http://airyu.cat/",	
+		"http://airyu.cat/",	
+		"http://airyu.cat/",	
+		"http://airyu.cat/",	
 		"https://twitter.com/julcreutz",	
 		"https://twitter.com/tanu_pxl",	
 		"https://twitter.com/Alisuca3",	
@@ -127,8 +127,8 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/rose_bushes_",	
 		"https://twitter.com/DonMarramiau",	
 		"https://twitter.com/DonMarramiau",	
-		"",	//request sent
-		"",	//request sent
+		"https://google.com",	//request sent
+		"https://google.com",	//request sent
 		"https://linktr.ee/MerSaloon"	
 				]
 	return artistURLArrayOverworld;
