@@ -116,11 +116,11 @@ function fnc_start()
 	
 	artistArrayURLDungeon = [
 		"https://twitter.com/zaebucca",
-		"https://discord.gg/nWj8jGEA",
+		"https://twitter.com/tippedchair",
 		"https://twitter.com/SazdxHikari",
-		"https://discord.gg/nWj8jGEA",
+		"",
 		"https://linktr.ee/atticusfinn",
-		"https://discord.gg/nWj8jGEA",
+		"https://twitter.com/PikaBoooouh",
 		"https://twitter.com/BrandoParmelee",
 		"https://crowno.carrd.co/",
 		"https://twitter.com/juanitomedinart/status/1454510607118577671"
