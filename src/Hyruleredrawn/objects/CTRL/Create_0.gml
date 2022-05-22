@@ -9,8 +9,9 @@ window_lastx = window_get_width();
 window_lasty = window_get_height();
 
 // Audio Setup
-audio_master_gain(0.2)
-audio_play_sound(bgm_title,1,true)
+global.audio_default_gain = 0.5;
+audio_master_gain(global.audio_default_gain);
+audio_play_sound(bgm_title,1,true);
 
 //VARIABLES
 hStep = 256;
@@ -35,15 +36,20 @@ wyPadding = 15;
 bxSpacing = 30; // Button spacing
 bzSpacing = -100; // Button depth
 
+depth = -100;
+
+global.info_overlay = false;
+mouse_over_info = false;
+
 enum buttonOrder {	// Manage button order
 	fs,
 	shader,
 	audio,
-	change
+	info,
+	change,
 }
 
-
-state = "title"
+state = "title"		// Current 'screen'
 
 draw_set_font(fnt_alttp);
 title = instance_create_depth(global.screenWidth/2,global.screenHeight/2, bzSpacing,obj_title) // Title card
@@ -62,11 +68,15 @@ else {
 
 objshader = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.shader - wxPadding,
 									wyPadding, bzSpacing, obj_shader); // Shader
-objshader.ctrl = self
+objshader.ctrl = self;
 
 audio = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.audio - wxPadding,
 								wyPadding, bzSpacing, obj_audiobutton) // Audio
-audio.ctrl = self
+audio.ctrl = self;
+
+info = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.info - wxPadding,
+								wyPadding, bzSpacing, obj_infobutton) // Audio
+info.ctrl = self;
 
 // CREATE MAP & LOAD ALL DATA
 function fnc_start()
@@ -303,7 +313,7 @@ function posCheck()
 // Open artist html link
 function pressOnArtist()
 {
-	url_open_ext(link,"_blank");
+	if (link != "")	url_open_ext(link,"_blank");
 }
 
 // Generate navigational arrows

@@ -1,5 +1,6 @@
 {
-  "compression": 3,
+  "conversionMode": 0,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -10,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_stairs.wav",
-  "duration": 0.940312,
+  "soundFile": "sfx_stairs.mp3",
+  "duration": 0.78365,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

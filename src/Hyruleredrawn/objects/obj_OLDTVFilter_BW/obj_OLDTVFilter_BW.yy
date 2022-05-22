@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprOLDTVFilterIcon",
-    "path": "sprites/sprOLDTVFilterIcon/sprOLDTVFilterIcon.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

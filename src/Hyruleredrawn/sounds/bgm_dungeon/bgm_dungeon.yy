@@ -1,6 +1,7 @@
 {
+  "conversionMode": 0,
   "compression": 0,
-  "volume": 0.4,
+  "volume": 0.74,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_dungeon.mp3",
-  "duration": 180.035919,
+  "duration": 49.7894,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
