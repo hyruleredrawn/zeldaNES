@@ -36,7 +36,7 @@ wyPadding = 15;
 bxSpacing = 30; // Button spacing
 bzSpacing = -100; // Button depth
 
-depth = -100;
+depth = -90;	// CTRL depth (and its drawn elements)
 
 global.info_overlay = false;
 mouse_over_info = false;
@@ -332,10 +332,10 @@ function fnc_spawnArrows()
 // Eliminate navigational arrows
 function fnc_despawnArrows()
 {
-	instance_destroy(a_down	) 
-	instance_destroy(a_up	)
-	instance_destroy(a_right)
-	instance_destroy(a_left	)
+	instance_destroy(a_down	); 
+	instance_destroy(a_up	);
+	instance_destroy(a_right);
+	instance_destroy(a_left	);
 }
 
 // Enter a dungeon from the overworld

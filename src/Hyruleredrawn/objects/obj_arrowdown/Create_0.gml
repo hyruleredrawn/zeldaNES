@@ -1,5 +1,6 @@
  /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 x = (global.screenWidth/2 - (sprite_height/4) + sprite_width);
 y = global.screenHeight - (sprite_width/2) - 3;
 
