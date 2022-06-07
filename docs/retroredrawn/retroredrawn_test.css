@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+.thumbDesc {
+    padding: 5px;
+}
+
+#backdrop {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -2;
+}
+
+#logoholder {
+    text-align: center;
+}
+
+#sitelogo {
+    padding-top: 10%;
+    padding-bottom: 6%;
+
+    margin: auto;
+}
+
+#graytray {
+    color: #f0eeeb;
+    background-color: #262625b4;
+    text-align: center;
+    padding: 28px;
+    margin: auto;
+
+    top: 55%;
+}
+
