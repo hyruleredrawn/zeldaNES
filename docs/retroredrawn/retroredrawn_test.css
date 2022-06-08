@@ -3,7 +3,8 @@ body {
 }
 
 .thumbDesc {
-    padding: 5px;
+    padding: 10px;
+	margin: 5px;
 }
 
 #backdrop {
@@ -28,7 +29,7 @@ body {
     color: #f0eeeb;
     background-color: #000000b4;
     text-align: center;
-    padding: 49px;
+    padding: 46px;
     margin: auto;
 
     top: 55%;
