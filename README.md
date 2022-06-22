@@ -2,7 +2,7 @@
 
 This repository holds source files and builds for the Hyrule Redrawn NES project based on The Legend of Zelda. 
 
-Web Build: https://vulture-boy.github.io/hyruleRedrawnNES/
+Web Build: https://hyruleredrawn.github.io/zeldaNES/
 
 The project was organized by [IllusionOfMana](https://twitter.com/IllusionOfMana). Programming was completed by [Blindeduif](https://twitter.com/blindeduif) and [vvvultures](https://twitter.com/vvvultures). Background music is contributed by [Tori Roberts](https://twitter.com/torrybobs). Artworks are (c) their respective artists as denoted in the project runtime; [full spreadsheet here](https://docs.google.com/spreadsheets/d/1OofnAPRCEKkE1DqvSiuginDBn881GaM6KVyQGhVZ-SM/edit#gid=0). You can click each artist's name during gameplay to access their associated media page.
 
