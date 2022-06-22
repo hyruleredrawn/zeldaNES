@@ -8,4 +8,4 @@ The project was organized by [IllusionOfMana](https://twitter.com/IllusionOfMana
 
 This project was made in GameMaker Studio 2. The HTML5 build is located in the docs folder (in order to run on GitHub Pages) and any available desktop builds are in the builds folder. You're welcome to reuse the code in this GitHub provided attribution to the programmers.
 
-Includes a [CRT Filter shader](https://vortexstudios.itch.io/old-tv-filter-for-gamemaker) by [Vortex Game Studios](https://vortexstudios.itch.io/) (with minor  modifications for HTML5 support). 
+Includes a [CRT Filter shader](https://vortexstudios.itch.io/old-tv-filter-for-gamemaker) by [Vortex Game Studios](https://vortexstudios.itch.io/) (with minor  modifications for HTML5 support). Original Legend of Zelda sprites and music are property of Nintendo and included for educational purposes. 
