@@ -3,6 +3,6 @@
 
 // Open Credits link
 if (global.info_overlay && mouse_over_info) {
-	url_open_ext("https://github.com/vulture-boy/hyruleRedrawnNES", "_blank");
+	url_open_ext("https://github.com/hyruleredrawn/zeldaNES", "_blank");
 }
 
