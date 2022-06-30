@@ -1,16 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_arrow_l",
-    "path": "sprites/spr_arrow_l/spr_arrow_l.yy",
+    "name": "spr_dummy",
+    "path": "sprites/spr_dummy/spr_dummy.yy",
   },
   "solid": false,
-  "visible": true,
-  "spriteMaskId": {
-    "name": "spr_fullscreen",
-    "path": "sprites/spr_fullscreen/spr_fullscreen.yy",
-  },
+  "visible": false,
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_touch_zone",
+    "path": "objects/obj_touch_zone/obj_touch_zone.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +24,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +35,7 @@
     "path": "folders/Objects/UIButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_arrow_abstract",
+  "name": "obj_touch_zone_nodunj",
   "tags": [],
   "resourceType": "GMObject",
 }

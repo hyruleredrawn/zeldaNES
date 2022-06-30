@@ -2,7 +2,7 @@
 // You can write your code in this editor
 audio = 1
 entered = false;
-function press()
+function pressed()
 {
 	image_xscale = 2
 	image_yscale = 2

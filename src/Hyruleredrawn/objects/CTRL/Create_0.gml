@@ -2,6 +2,9 @@
 // You can write your code in this editor
 // SET GLOBALSSETTINGS
 
+// Singleton
+global.CTRL = self;
+
 // Window Setup
 scr_windowSetup();
 
@@ -85,7 +88,7 @@ function fnc_start()
 	audio_play_sound(bgm,1,true)	// Run game bgm
 	fnc_spawnArrows();				// Create nav arrows
 	
-	namebox = instance_create_depth(260,235,3,obj_name)  // Name plate
+	namebox = instance_create_depth(268,235,3,obj_name)  // Name plate
 	namebox.ctrl = self
 	
 	objchange = instance_create_depth(global.screenWidth - bxSpacing * buttonOrder.change - wxPadding,
@@ -319,14 +322,28 @@ function pressOnArtist()
 // Generate navigational arrows
 function fnc_spawnArrows()
 {
-	a_down = instance_create_depth(0,0,-100,obj_arrowdown) 
-	a_down.ctrl = self
-	a_up = instance_create_depth(0,0,-100,obj_arrowup) 
-	a_up.ctrl = self
-	a_right = instance_create_depth(0,0,-100,obj_arrowright) 
-	a_right.ctrl = self
-	a_left = instance_create_depth(0,0,-100,obj_arrowleft) 
-	a_left.ctrl = self
+	a_down = instance_create_depth(0,0,-100,obj_arrowdown);
+	a_down.ctrl = self;
+	a_up = instance_create_depth(0,0,-100,obj_arrowup);
+	a_up.ctrl = self;
+	a_right = instance_create_depth(0,0,-100,obj_arrowright);
+	a_right.ctrl = self;
+	a_left = instance_create_depth(0,0,-100,obj_arrowleft);
+	a_left.ctrl = self;
+	
+	// Assign buttons to touch zones
+	for (var i = 0; i< instance_number(obj_touch_zone); i++) 
+	{
+		var zone = instance_find(obj_touch_zone, i);
+		switch (zone.location) 
+		{
+			case "left": zone.arrow_button = a_left; break;
+			case "right": zone.arrow_button = a_right; break;
+			case "top": zone.arrow_button = a_up; break;
+			case "bottom": zone.arrow_button = a_down; break;
+			default: break;
+		}
+	}
 }
 
 // Eliminate navigational arrows
@@ -393,7 +410,7 @@ function shader()
 		if(instance_exists(objtv)) instance_destroy(objtv);
 		global.oldtvfilter_enabled = false;
 		gpu_set_tex_filter(false);
-		application_surface_draw_enable(true)
+		application_surface_draw_enable(true);
 		
 		// Loop integer
 		viewmode = 0;
