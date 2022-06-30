@@ -20,7 +20,7 @@ var artistArrayOverworld =	[
 					"khyledanialsm",
 					
 					"crowno",		// Row 2
-					"floppy",
+					"FloppyVelarde",
 					"javve",
 					"ShinySeabass",
 					"SJPixels",
