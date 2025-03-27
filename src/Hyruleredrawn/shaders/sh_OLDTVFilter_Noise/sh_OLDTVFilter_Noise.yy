@@ -1,11 +1,10 @@
 {
-  "type": 1,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "sh_OLDTVFilter_Noise",
   "parent": {
     "name": "OLD TV Filter Shaders",
     "path": "folders/Shaders/Vortex Game Studios/OLD TV Filter Shaders.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sh_OLDTVFilter_Noise",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 1,
 }

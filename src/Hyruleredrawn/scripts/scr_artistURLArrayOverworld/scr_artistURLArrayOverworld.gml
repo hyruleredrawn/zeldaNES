@@ -18,6 +18,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/ddoobysnax/status/1371195606828412929",	
 		"https://twitter.com/Maytch",	
 		"https://google.com",	//untraceable
+		
 		"https://crowno.carrd.co/",	//r2
 		"https://linktr.ee/FloppyVelarde",	
 		"https://linktr.ee/javve",	
@@ -27,13 +28,14 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/Jameskevich",	
 		"https://twitter.com/Oroshibu",	
 		"https://linktr.ee/lorenradis",	
-		"https://twitter.com/vvvultures",	
+		"https://www.tysonmoll.ca",	
 		"https://linktr.ee/datpolyb",	
 		"https://twitter.com/mikmanc_art/status/1381968838393139208?s=21",	
 		"https://twitter.com/PikaBoooouh",	
 		"https://linktr.ee/thedragonllama",	
 		"https://linktr.ee/lorenradis",	
 		"https://google.com",	//Has no socials
+		
 		"https://twitter.com/block_snake",	//r3
 		"https://linktr.ee/reineke",	
 		"https://twitter.com/ZabluDoki",	//request send // Found on twitter
@@ -50,6 +52,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/OvergrownRobot",	
 		"https://google.com",	//request send
 		"https://linktr.ee/MerSaloon",	
+		
 		"https://twitter.com/squp_haver",	//r4
 		"https://linktr.ee/reineke",	
 		"https://twitter.com/ZabluDoki",	//request send // Found on twitter
@@ -66,6 +69,7 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/lorenradis",	
 		"https://linktr.ee/btdangelo",	
 		"https://linktr.ee/johndanims",	
+		
 		"https://twitter.com/RealMrLordE",	//r5
 		"https://linktr.ee/reineke",	
 		"https://linktr.ee/reineke",	
@@ -79,9 +83,10 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/lorenradis",	
 		"https://twitter.com/huttaburger",	
 		"https://linktr.ee/blindeduif",	
-		"https://twitter.com/blind3dbylight",	
-		"https://twitter.com/blind3dbylight",	
+		"https://linktr.ee/blind3dbylight",		
+		"https://linktr.ee/blind3dbylight",	
 		"https://twitter.com/suspixelart?lang=en",	
+		
 		"https://twitter.com/RealMrLordE",	//r6
 		"https://twitter.com/MursellJ_art",	
 		"https://twitter.com/MursellJ_art",	
@@ -95,9 +100,10 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/Alisuca3",	
 		"https://twitter.com/NHorologiumRPG?s=09",	
 		"https://linktr.ee/CJJammies",	
-		"https://twitter.com/blind3dbylight",	
+		"https://linktr.ee/blind3dbylight",	
 		"https://twitter.com/torrybobs",	
 		"https://twitter.com/suspixelart?lang=en",	
+		
 		"https://twitter.com/PorbleG",	//r7
 		"https://twitter.com/MursellJ_art",	
 		"https://twitter.com/MursellJ_art",	
@@ -114,6 +120,7 @@ var artistURLArrayOverworld =	[
 		"https://www.twitter.com/mazzymuse",	
 		"https://linktr.ee/Cloditu",	
 		"https://yaboimatteedubbz.carrd.co/",	
+		
 		"https://twitter.com/PorbleG",	//r8
 		"https://twitter.com/K3nch44?s=09",	
 		"https://twitter.com/illydinosaur",	
