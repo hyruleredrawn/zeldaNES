@@ -2,22 +2,22 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_artistURLArrayOverworld(){
 var artistURLArrayOverworld =	[
-		"https://twitter.com/MistaJub",	//r1
-		"https://twitter.com/plutobirdo",	
-		"https://twitter.com/HyMyNameIsMatt",	
-		"https://twitter.com/shin0_0ne",	
-		"https://twitter.com/JonTheRealJon?s=09",	
-		"https://twitter.com/JonTheRealJon?s=09",	
-		"https://twitter.com/JonTheRealJon?s=09",	
-		"https://twitter.com/Oroshibu",	
-		"https://twitter.com/Elementalisman?t=dTW-q8y9XRnZd80To6bY1g&s=09",	
+		"https://bsky.app/profile/mistajub.bsky.social",	//r1
+		"https://bsky.app/profile/plutobirdo.bsky.social",	
+		"https://bsky.app/profile/hymynameismatt.bsky.social",	
+		"https://x.com/shin0_0ne",	
+		"https://bsky.app/profile/redrachis.bsky.social",	
+		"https://bsky.app/profile/redrachis.bsky.social",	
+		"https://bsky.app/profile/redrachis.bsky.social",	
+		"https://bsky.app/profile/oroshibu.bsky.social",	
+		"https://bsky.app/profile/elementalisman.bsky.social",	
 		"https://yaboimatteedubbz.carrd.co/",	
-		"https://twitter.com/Maytch",	
-		"https://twitter.com/mikmanc_art/status/1381968838393139208?s=21",	
-		"https://twitter.com/MageUntalented",	
-		"https://twitter.com/ddoobysnax/status/1371195606828412929",	
-		"https://twitter.com/Maytch",	
-		"https://google.com",	//untraceable
+		"https://linktr.ee/maytch",	
+		"https://x.com/mikmanc_art/status/1381968838393139208?s=21",	
+		"https://x.com/MageUntalented",	
+		"https://bsky.app/profile/ddoobysnax.bsky.social",	
+		"https://linktr.ee/maytch",	
+		"https://www.artstation.com/khyledaniels6",	
 		
 		"https://crowno.carrd.co/",	//r2
 		"https://linktr.ee/FloppyVelarde",	
@@ -26,7 +26,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/PixelsSj",	
 		"https://linktr.ee/Jameskevich",	
 		"https://linktr.ee/Jameskevich",	
-		"https://twitter.com/Oroshibu",	
+		"https://bsky.app/profile/oroshibu.bsky.social",	
 		"https://linktr.ee/lorenradis",	
 		"https://www.tysonmoll.ca",	
 		"https://linktr.ee/datpolyb",	
@@ -134,7 +134,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/rose_bushes_",	
 		"https://twitter.com/DonMarramiau",	
 		"https://twitter.com/DonMarramiau",	
-		"https://google.com",	//request sent
+		"https://x.com/ChJaPx",
 		"https://google.com",	//request sent
 		"https://linktr.ee/MerSaloon"	
 				]
