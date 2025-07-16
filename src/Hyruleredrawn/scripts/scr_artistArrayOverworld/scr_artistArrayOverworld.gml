@@ -49,7 +49,7 @@ var artistArrayOverworld =	[
 					"Jonas Q",
 					"Croey",
 					"RoyBot",
-					"THX",
+					"OvergrownRobot",
 					"gravityblocks",
 					"DumDrums",
 					

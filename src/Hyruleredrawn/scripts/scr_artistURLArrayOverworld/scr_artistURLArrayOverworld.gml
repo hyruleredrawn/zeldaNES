@@ -39,32 +39,32 @@ var artistURLArrayOverworld =	[
 		"https://bsky.app/profile/snakeblock.bsky.social",	//r3
 		"https://linktr.ee/reineke",	
 		"https://bsky.app/profile/zabludoki.bsky.social",
-		"https://twitter.com/DrZicter",	
-		"https://twitter.com/crizzpix",	
-		"https://twitter.com/crizzpix",	
-		"https://twitter.com/RaspberryMilks1",	
+		"https://x.com/DrZicter",	
+		"https://x.com/crizzpix",	
+		"https://x.com/crizzpix",	
+		"https://bsky.app/profile/raspberrymilkshake.bsky.social",	
 		"https://linktr.ee/illusionofmana",	
 		"https://linktr.ee/illusionofmana",	
 		"https://linktr.ee/Dylz49",	
-		"https://twitter.com/tripleafrog",	
+		"https://x.com/tripleafrog",	
 		"https://linktr.ee/croey",	
 		"https://retroredrawn.com",	//Has no socials
-		"https://twitter.com/OvergrownRobot",	
+		"https://bsky.app/profile/overgrownrobot.zip",	
 		"https://retroredrawn.com",	//request send
 		"https://linktr.ee/MerSaloon",	
 		
-		"https://twitter.com/squp_haver",	//r4
+		"https://bsky.app/profile/did:plc:xye6v4txjbv7agxbie5hjjlk",	//r4
 		"https://linktr.ee/reineke",	
 		"https://bsky.app/profile/zabludoki.bsky.social",
-		"https://twitter.com/azlef123",	
-		"https://twitter.com/minichibisart",	
-		"https://twitter.com/MaxiSZ69",	
-		"https://twitter.com/TidnBits",	
+		"https://x.com/azlef123",	
+		"https://bsky.app/profile/minichibisart.bsky.social",	
+		"https://bsky.app/profile/maxisz.bsky.social",	
+		"https://x.com/TidnBits",	
 		"https://linktr.ee/illusionofmana",	
 		"https://linktr.ee/illusionofmana",	
-		"https://twitter.com/Kiwi_Comet?t=rNix9F8BGzAmeFrtLMm20w&s=09",	
-		"https://twitter.com/HellhoundVideo",	//twitter removed
-		"https://twitter.com/MobyPixel",	
+		"https://x.com/Kiwi_Comet?t=rNix9F8BGzAmeFrtLMm20w&s=09",	
+		"https://x.com/HellhoundVideo",	//twitter removed
+		"https://bsky.app/profile/mobypixel.bsky.social",	
 		"https://linktr.ee/blindeduif",	
 		"https://linktr.ee/lorenradis",	
 		"https://linktr.ee/btdangelo",	
