@@ -119,7 +119,7 @@ function fnc_start()
 		"Zaebucca ",
 		"Tippedchair",
 		"Sazdx",
-		"beckyOwlmusic",
+		"PeepingOwl",
 		"AtticusFinn",
 		"Pikabhooooo",
 		"FullMetalBrando",
@@ -129,9 +129,9 @@ function fnc_start()
 	
 	artistArrayURLDungeon = [
 		"https://bsky.app/profile/zaebucca.itch.io",
-		"https://twitter.com/tippedchair",
-		"https://twitter.com/SazdxHikari",
-		"https://twitter.com/beckyOwlmusic?t=tkcbKEu5n2KRwdegHUbtNQ&s=09",
+		"https://bsky.app/profile/tippedchair.bsky.social",
+		"https://linktr.ee/SazdxHikari",
+		"https://bsky.app/profile/peepingowl.bsky.social",
 		"https://linktr.ee/atticusfinn",
 		"https://www.artstation.com/merlinmuret",
 		"https://linktr.ee/brandoparm",
