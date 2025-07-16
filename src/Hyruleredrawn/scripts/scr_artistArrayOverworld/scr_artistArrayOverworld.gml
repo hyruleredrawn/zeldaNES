@@ -17,7 +17,7 @@ var artistArrayOverworld =	[
 					"TolerableToast",
 					"ddooby",
 					"Maytch",
-					"khyledanialsm",
+					"khyledaniels",
 					
 					"crowno",		// Row 2
 					"FloppyVelarde",
@@ -31,12 +31,12 @@ var artistArrayOverworld =	[
 					"vvvultures ",
 					"PolyB",
 					"MikManc",
-					"Pikaboo",
+					"Enchanteur",
 					"thedragonllama",
 					"LorenRadis",
 					"Roybot",
 					
-					"snake",		// Row 3
+					"SnakeBlock",		// Row 3
 					"Reineke",
 					"Doki",
 					"Sperbs",

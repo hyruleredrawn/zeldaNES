@@ -128,15 +128,15 @@ function fnc_start()
 	]
 	
 	artistArrayURLDungeon = [
-		"https://twitter.com/zaebucca",
+		"https://bsky.app/profile/zaebucca.itch.io",
 		"https://twitter.com/tippedchair",
 		"https://twitter.com/SazdxHikari",
 		"https://twitter.com/beckyOwlmusic?t=tkcbKEu5n2KRwdegHUbtNQ&s=09",
 		"https://linktr.ee/atticusfinn",
-		"https://twitter.com/PikaBoooouh",
+		"https://www.artstation.com/merlinmuret",
 		"https://linktr.ee/brandoparm",
 		"https://crowno.carrd.co/",
-		"https://twitter.com/juanitomedinart/status/1454510607118577671"
+		"https://bsky.app/profile/juanitomedinart.bsky.social"
 	]
 
 	// Prepare map data storage from prepared Overworld arrays

@@ -23,22 +23,22 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/FloppyVelarde",	
 		"https://linktr.ee/javve",	
 		"https://linktr.ee/ShinySeabass",	
-		"https://twitter.com/PixelsSj",	
+		"https://scottwelfare2.wixsite.com/sjpixels",	
 		"https://linktr.ee/Jameskevich",	
 		"https://linktr.ee/Jameskevich",	
 		"https://bsky.app/profile/oroshibu.bsky.social",	
 		"https://linktr.ee/lorenradis",	
-		"https://www.tysonmoll.ca",	
+		"https://bsky.app/profile/vvvultures.bsky.social",	
 		"https://linktr.ee/datpolyb",	
-		"https://twitter.com/mikmanc_art/status/1381968838393139208?s=21",	
-		"https://twitter.com/PikaBoooouh",	
+		"https://x.com/mikmanc_art/status/1381968838393139208?s=21",	
+		"https://www.artstation.com/merlinmuret",	
 		"https://linktr.ee/thedragonllama",	
 		"https://linktr.ee/lorenradis",	
-		"https://google.com",	//Has no socials
+		"https://retroredrawn.com",	//Has no socials
 		
-		"https://twitter.com/block_snake",	//r3
+		"https://bsky.app/profile/snakeblock.bsky.social",	//r3
 		"https://linktr.ee/reineke",	
-		"https://twitter.com/ZabluDoki",	//request send // Found on twitter
+		"https://bsky.app/profile/zabludoki.bsky.social",
 		"https://twitter.com/DrZicter",	
 		"https://twitter.com/crizzpix",	
 		"https://twitter.com/crizzpix",	
@@ -48,14 +48,14 @@ var artistURLArrayOverworld =	[
 		"https://linktr.ee/Dylz49",	
 		"https://twitter.com/tripleafrog",	
 		"https://linktr.ee/croey",	
-		"https://google.com",	//Has no socials
+		"https://retroredrawn.com",	//Has no socials
 		"https://twitter.com/OvergrownRobot",	
-		"https://google.com",	//request send
+		"https://retroredrawn.com",	//request send
 		"https://linktr.ee/MerSaloon",	
 		
 		"https://twitter.com/squp_haver",	//r4
 		"https://linktr.ee/reineke",	
-		"https://twitter.com/ZabluDoki",	//request send // Found on twitter
+		"https://bsky.app/profile/zabludoki.bsky.social",
 		"https://twitter.com/azlef123",	
 		"https://twitter.com/minichibisart",	
 		"https://twitter.com/MaxiSZ69",	
@@ -93,7 +93,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/j_raido",	
 		"https://www.instagram.com/kumporigin/",	
 		"https://linktr.ee/MerSaloon",	
-		"https://google.com",	//request sent
+		"https://retroredrawn.com",	//request sent
 		"https://crowno.carrd.co/",	
 		"https://linktr.ee/1Sinvilla",	
 		"https://twitter.com/Alisuca3",	
@@ -135,7 +135,7 @@ var artistURLArrayOverworld =	[
 		"https://twitter.com/DonMarramiau",	
 		"https://twitter.com/DonMarramiau",	
 		"https://x.com/ChJaPx",
-		"https://google.com",	//request sent
+		"https://retroredrawn.com",	//request sent
 		"https://linktr.ee/MerSaloon"	
 				]
 	return artistURLArrayOverworld;
