@@ -5,7 +5,7 @@ var artistURLArrayOverworld =	[
 		"https://bsky.app/profile/mistajub.bsky.social",	//r1
 		"https://bsky.app/profile/plutobirdo.bsky.social",	
 		"https://bsky.app/profile/hymynameismatt.bsky.social",	
-		"https://x.com/shin0_0ne",	
+		"https://bsky.app/profile/shino1.bsky.social",	
 		"https://bsky.app/profile/redrachis.bsky.social",	
 		"https://bsky.app/profile/redrachis.bsky.social",	
 		"https://bsky.app/profile/redrachis.bsky.social",	
